@@ -1,7 +1,7 @@
 // Copyright 2021 Twitter, Inc.
 // SPDX-License-Identifier: Apache-2.0
 
-import crypto from "crypto";
+const crypto = require("crypto-browserify");
 import { buildQueryString, basicAuthHeader } from "./utils";
 import { AuthClient, AuthHeader } from "./types";
 import { RequestOptions, rest } from "./request";
